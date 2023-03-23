@@ -375,14 +375,19 @@ if (nomepage2 != undefined) {
         }
 
         if (erro == 0) {
-            names.innerHTML += `<br>Usuário e senha verificados com sucesso! Estão no banco de dados!`
-            const delay = setInterval(testar3, 8)
-            clearInterval(delay)
+           alert("Usuário e senha verificados com sucesso! Estão no banco de dados!")
+//             names.innerHTML += `<br>Usuário e senha verificados com sucesso! Estão no banco de dados!`
+//             const delay = setInterval(testar3, 8)
+//             clearInterval(delay)
+            testar()
+            
         }
         else{
-            names.innerHTML += `<br>Usuário ou senha não constam no banco de dados! Tente novamente!`
-            const delay2 = setInterval(testar3, 8)
-            clearInterval(delay2)
+            alert("Usuário ou senha não constam no banco de dados! Tente novamente!")
+//             names.innerHTML += `<br>Usuário ou senha não constam no banco de dados! Tente novamente!`
+//             const delay2 = setInterval(testar3, 8)
+//             clearInterval(delay2)
+            testar()
         }
     }
 
